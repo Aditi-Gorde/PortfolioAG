@@ -1,0 +1,119 @@
+#homeh1 {
+    color: white;
+    padding-top: 50px;
+    padding-left: 80px;
+    font-family: Arial;
+    line-height: 0.1;
+  }
+h2 {
+    color: white;
+    padding-left: 70px;
+    font-family: Arial;
+}
+#cartoon {
+    width:480px; 
+    height: 370px;
+    margin-left: 160px;
+}
+#btn1{
+    padding-top: 20px;
+    padding-left: 80px;
+}
+.AboutP {
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: white;
+}
+#abouth1 {
+    text-align: center;
+    color: #317773;
+}
+#skillsh1 {
+    text-align: center;
+    color: #317773;
+}
+#skillsh3 {
+    text-align: center;
+    color: white;
+}
+#skillsD {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+button {
+    height: 40px;
+    width :150px;
+}
+label {
+    color: white;
+}
+#projecth1 {
+    text-align: center;
+    color: #317773;
+    
+}
+ #card1 {
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 100px;
+    padding-right: 850px; */
+} 
+.card {
+    background-color: #161919;
+    color: white;
+}
+#contact {
+    padding-left: 240px;
+    padding-right: 240px;
+}
+#Workh1 {
+    text-align: center;
+    color: #317773;
+}
+#exph1 {
+    text-align: center;
+    color: #317773;
+}
+.li1 {
+    display: inline;
+    padding: 160px;
+    color: white;
+    font-size: 22px;
+}
+#sde {
+    display: inline-flex; 
+    align-items: center;
+}
+#div2 {
+    margin-left: 120px;
+    color: white;
+}
+#img1 {
+    width:410px; 
+    height: 320px;
+    margin-left: 8rem;
+}
+#header4 {
+    font-size: 18px;
+    margin-left: 4rem;
+}
+#anch, #anch2 {
+    text-decoration: none;
+}
+#soc1 {
+    padding-left: 50px;
+}
+#soc {
+    padding-right: 20px;
+}
+
+.formInput {
+    background-color: #6c757d;
+    color:white;
+    border-color: #6c757d;
+    padding: 8px 27px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
