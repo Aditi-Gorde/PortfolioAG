@@ -44,11 +44,11 @@ export default function Workf() {
             <div className='col'>
                 <h4 style={{color:'white'}}>You can also find me on</h4><br />
                 <div style={{paddingLeft:0}} class="d-grid gap-2 col-6 mx-auto" id="soc">
-                   <a href='https://www.linkedin.com/in/aditi-gorde-67797a211/' target="_blank" rel="noopener"><button class="btn btn-outline-secondary" type="button" style={{color:'white'}}>LinkedIn</button></a><br />
+                   <a href='https://www.linkedin.com/in/aditi-gorde-67797a211/' target="_blank" rel="noreferrer"><button class="btn btn-outline-secondary" type="button" style={{color:'white'}}>LinkedIn</button></a><br />
 
-                    <a target='_blank' rel="noopener" href='https://www.instagram.com/aditigorde10/?next=%2F'><button class="btn btn-outline-secondary" type="button" style={{color:'white'}}>Instagram</button></a><br />
+                    <a target='_blank' rel="noreferrer" href='https://www.instagram.com/aditigorde10/?next=%2F'><button class="btn btn-outline-secondary" type="button" style={{color:'white'}}>Instagram</button></a><br />
 
-                  <a target="_blank" rel="noopener" href='https://github.com/Aditi-Gorde'>  <button class="btn btn-outline-secondary" type="button" style={{color:'white'}}>Github</button></a><br />
+                  <a target="_blank" rel="noreferrer" href='https://github.com/Aditi-Gorde'>  <button class="btn btn-outline-secondary" type="button" style={{color:'white'}}>Github</button></a><br />
                 </div>
             </div>
             <div className='col' id="soc1">
