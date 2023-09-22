@@ -6,7 +6,6 @@ import Workf from './Components/Workf';
 import Projects from './Components/Projects';
 import Exp from './Components/Exp';
 import Home from './Components/Home';
-import React, { useState, useEffect } from 'react';
 import './Components/Home.css'
 
 function App() {

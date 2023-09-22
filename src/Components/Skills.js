@@ -13,7 +13,6 @@ export default function Skills() {
     const [buttonText8, setButtonText8] = useState('Bootstrap');
     const [buttonText9, setButtonText9] = useState('React Js');
     const [buttonText10, setButtonText10] = useState('CSS');
-    const [backgroundColor, setBackgroundColor] = useState('#161919');
 
     function handleClick1() {
         setButtonText1('Intermediate');
@@ -44,12 +43,6 @@ export default function Skills() {
     }
     function handleRemove5() {
         setButtonText5('Javascript')
-    }
-    function handleClick6() {
-        setButtonText6('Intermediate');
-    }
-    function handleRemove6() {
-        setButtonText6('Jquery')
     }
     function handleClick6() {
         setButtonText6('Intermediate'); 
@@ -89,24 +82,24 @@ export default function Skills() {
             <h6 id="skillsh3">"Dedicated to continuously expanding my skill set and embracing new learning opportunities."</h6><br />
             <div id="skillsD2">
             <div class="d-grid gap-2 d-md-block col-6 mx-auto">
-                 <button style={{ backgroundColor: backgroundColor }} onMouseEnter={handleClick1} onMouseLeave={handleRemove1} id = "java"class="btn btn-secondary mx-5 " type="button" value ="java" >{buttonText1}</button>
-                 <button style={{ backgroundColor: backgroundColor }} onMouseEnter={handleClick2} onMouseLeave={handleRemove2} class="btn btn-secondary mx-5 " type="button" value ="C" >{buttonText2}</button>
+                 <button style={{ backgroundColor: '#161919' }} onMouseEnter={handleClick1} onMouseLeave={handleRemove1} id = "java"class="btn btn-secondary mx-5 " type="button" value ="java" >{buttonText1}</button>
+                 <button style={{ backgroundColor: '#161919' }} onMouseEnter={handleClick2} onMouseLeave={handleRemove2} class="btn btn-secondary mx-5 " type="button" value ="C" >{buttonText2}</button>
             </div><br />
 
             <div class="d-grid gap-2 d-md-block col-6 mx-auto">
-            <button style={{ backgroundColor: backgroundColor }} onMouseEnter={handleClick3} onMouseLeave={handleRemove3} class="btn btn-secondary mx-5 " type="button" >{buttonText3}</button>
-            <button style={{ backgroundColor: backgroundColor }} onMouseEnter={handleClick4} onMouseLeave={handleRemove4} class="btn btn-secondary mx-5 " type="button" >{buttonText4}</button>
+            <button style={{ backgroundColor: '#161919' }} onMouseEnter={handleClick3} onMouseLeave={handleRemove3} class="btn btn-secondary mx-5 " type="button" >{buttonText3}</button>
+            <button style={{ backgroundColor: '#161919' }} onMouseEnter={handleClick4} onMouseLeave={handleRemove4} class="btn btn-secondary mx-5 " type="button" >{buttonText4}</button>
             </div><br />
             <div class="d-grid gap-2 d-md-block col-6 mx-auto">
-            <button style={{ backgroundColor: backgroundColor }} onMouseEnter={handleClick5} onMouseLeave={handleRemove5} class="btn btn-secondary mx-5 " type="button" >{buttonText5}</button>
-            <button style={{ backgroundColor: backgroundColor }} onMouseEnter={handleClick6} onMouseLeave={handleRemove6} class="btn btn-secondary mx-5 " type="button" >{buttonText6}</button>
+            <button style={{ backgroundColor: '#161919' }} onMouseEnter={handleClick5} onMouseLeave={handleRemove5} class="btn btn-secondary mx-5 " type="button" >{buttonText5}</button>
+            <button style={{ backgroundColor: '#161919' }} onMouseEnter={handleClick6} onMouseLeave={handleRemove6} class="btn btn-secondary mx-5 " type="button" >{buttonText6}</button>
             </div><br />
             <div class="d-grid gap-2 d-md-block col-6 mx-auto">
-            <button style={{ backgroundColor: backgroundColor }} onMouseEnter={handleClick7} onMouseLeave={handleRemove7} class="btn btn-secondary mx-5 " type="button" >{buttonText7}</button>
-            <button style={{ backgroundColor: backgroundColor }} onMouseEnter={handleClick8} onMouseLeave={handleRemove8} class="btn btn-secondary mx-5 " type="button" >{buttonText8}</button>
+            <button style={{ backgroundColor: '#161919' }} onMouseEnter={handleClick7} onMouseLeave={handleRemove7} class="btn btn-secondary mx-5 " type="button" >{buttonText7}</button>
+            <button style={{ backgroundColor: '#161919' }} onMouseEnter={handleClick8} onMouseLeave={handleRemove8} class="btn btn-secondary mx-5 " type="button" >{buttonText8}</button>
             </div><br />
-            <div class="d-grid gap-2 d-md-block col-6 mx-auto"><button style={{ backgroundColor: backgroundColor }} onMouseEnter={handleClick9} onMouseLeave={handleRemove9} class="btn btn-secondary mx-5 " type="button" >{buttonText9}</button>
-            <button style={{ backgroundColor: backgroundColor }} onMouseEnter={handleClick10} onMouseLeave={handleRemove10} class="btn btn-secondary mx-5 " type="button" >{buttonText10}</button>
+            <div class="d-grid gap-2 d-md-block col-6 mx-auto"><button style={{ backgroundColor: '#161919' }} onMouseEnter={handleClick9} onMouseLeave={handleRemove9} class="btn btn-secondary mx-5 " type="button" >{buttonText9}</button>
+            <button style={{ backgroundColor: '#161919' }} onMouseEnter={handleClick10} onMouseLeave={handleRemove10} class="btn btn-secondary mx-5 " type="button" >{buttonText10}</button>
             </div><br />
             </div>
         </div>
