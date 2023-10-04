@@ -32,11 +32,6 @@ h2 {
 }
 
 @media (max-width: 767px) {
-   .abtme{
-    margin-top: 1rem;
-    margin-left: 0rem;
-    
-   }
 
    #cartoon{
     width:15rem!important; 
@@ -93,7 +88,7 @@ h2 {
     #skillsD2
     {
         margin-left: 0rem;
-        margin-right: 9rem;
+        margin-right: 25%;
     }
 } 
     
@@ -161,6 +156,8 @@ label {
         width:12rem!important; 
         height: 10rem!important;
         margin-left: 2rem!important;
+        margin-bottom: 2rem;
+        
     }
 
     .li1 {
@@ -173,22 +170,33 @@ label {
     .cardText {
         height: 18rem;
     }
+    
    
 } 
+@media (max-width: 400px) and (min-width: 200px){
+.abtme{
+   margin-top: 1rem;
+    margin-left: 0rem;
+    
+   }
 
-.cardTitle {
-    color: rgb(96, 91, 91);
+.workme {
+   margin-top: 1rem;
+margin-right: 1rem;
+}
+
+
 }
 
 #img1 {
     width:28rem; 
     height: 22rem;
-    margin-left: 8rem;
+    margin-left: 6rem;
 }
 
 #header4 {
-    font-size: 18px;
-    margin-left: 4rem;
+    font-size: 1rem;
+    margin-left: 0rem;
 }
 #anch, #anch2 {
     text-decoration: none;

@@ -20,7 +20,7 @@ class SlidingText extends Component {
       <div className={`text ${animate ? 'slide-in' : ''}`}  style={{display:'flex',paddingTop:'5rem'}}>
         <div id="Home">
           <div id="homeh1"><h2 style={{paddingLeft:0}}>HELLO</h2><br /><h1>I am Aditi Gorde</h1><br/><h4>Software Developer</h4><br /><br />
-              <a href="#contact"><button type="button" class="btn btn-secondary">Work with me</button></a>
+              <a href="#contact"><button type="button" class="btn btn-secondary workme">Work with me</button></a>
               <a href="#About" ><button type="button" class="btn btn-secondary abtme ">More about me</button></a>
             </div>
         <div>

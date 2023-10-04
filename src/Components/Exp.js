@@ -19,7 +19,7 @@ export default function Exp() {
   return (
     <>
         <div id="Exp">
-            <h1 id="exph1">Experience</h1><br /><br />
+            <h1 id="exph1">Experience</h1><br />
             <ul >
                 <a id="anch" onClick={sde}  href='#wde'><li class="li1" style={{color:'rgb(152, 34, 34)'}}>Software Engineer Intern</li></a>
                 <a id ="anch2" onClick={wde} href="#wde"><li class="li1" style={{color:'rgb(152, 34, 34)'}}>Web Development Intern</li></a>
@@ -34,9 +34,9 @@ export default function Exp() {
                 <h4 id ="header4">-Opentext [Feb 2023 - Aug 2023]</h4>
                 <br/>
 	            <p id="para1">Worked with multiple new technologies in the product including Cloud (Amazon S3,  Amazon Glacier and Azure) backup and restore capability. </p>
-	            <p id="para2">Responsibilities involved developing new features based on customer-centric innovation and understanding the software development process including developing the environment and tools.<br/>
-                Developed/Supported replication of unique data directly from one opendedupe store to another without transferring the data through a media agent.<br/>
-                Hands-on experience in Perl and Amazon SDK's.<br/>
+	            <p id="para2">Responsibilities involved developing new features based on customer-centric innovation and understanding the software development process including developing the environment and tools.
+                Developed/Supported replication of unique data directly from one opendedupe store to another without transferring the data through a media agent.
+                Hands-on experience in Perl and Amazon SDK's.
                 Worked with SAFe Agile/Scrum methodology of project management</p>
 	        </div>
 	        </div>
