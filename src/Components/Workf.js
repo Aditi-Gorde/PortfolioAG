@@ -30,6 +30,7 @@ export default function Workf() {
         .then((result) => {
             console.log(result.text);
             notifySuccess();
+            form.current.reset();
         }, (error) => {
             console.log(error.text);
             notifyError();
@@ -42,7 +43,7 @@ export default function Workf() {
         <div className='container'>
         <div className='row'>
             <div className='col'>
-                <h4 style={{color:'white'}}>You can also find me on</h4><br />
+                <h4 style={{color:'white',marginLeft:'5rem'}}>You can also find me on</h4><br />
                 <div style={{paddingLeft:0}} class="d-grid gap-2 col-6 mx-auto" id="soc">
                    <a href='https://www.linkedin.com/in/aditi-gorde-67797a211/' target="_blank" rel="noreferrer"><button class="btn btn-outline-secondary" type="button" style={{color:'white'}}>LinkedIn</button></a><br />
 
@@ -52,7 +53,7 @@ export default function Workf() {
                 </div>
             </div>
             <div className='col' id="soc1">
-                <form ref={form} onSubmit={sendEmail}>
+                <form ref={form} onSubmit={sendEmail} style={{width:'90%'}}>
                     <div class="relative mb-3">
                         <label for="Name" class="leading-7 text-sm text-gray-400">Name</label>
                         <input type="text" name="user_name" class="form-control bg-secondary" id="Name" aria-describedby="NameHelp"/>
@@ -63,7 +64,6 @@ export default function Workf() {
                     </div>
                     <div class="relative mb-3">
                         <label for="Msg" class="leading-7 text-sm text-gray-400">Message</label>
-                        {/* <input type="textArea" style={{height:100}} name="message" class="form-control bg-secondary" id="Msg" aria-describedby="Msg"/> */}
                         <textarea class="form-control bg-secondary" id="Msg" name="message" cols="15" rows="5"></textarea>
                     </div><br />
                     <input className='formInput' type="submit" value="Submit" />

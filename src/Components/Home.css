@@ -1,20 +1,62 @@
 #homeh1 {
     color: white;
-    padding-top: 50px;
-    padding-left: 80px;
+    margin-left: 4rem;
     font-family: Arial;
     line-height: 0.1;
   }
+
+  @media (max-width: 767px){
+    #homeh1 {
+        color: white;
+       margin-top: -2.5rem;
+       margin-left: 3rem;
+        font-family: Arial;
+        line-height: 0.1;
+        font-size: 0rem;
+        
+      }
+  }
+
+#Home {
+    display: flex;
+    flex-wrap:wrap;
+}
 h2 {
     color: white;
     padding-left: 70px;
     font-family: Arial;
 }
-#cartoon {
-    width:480px; 
-    height: 370px;
-    margin-left: 160px;
+
+.abtme {
+    margin-left: 2rem;
 }
+
+@media (max-width: 767px) {
+   .abtme{
+    margin-top: 1rem;
+    margin-left: 0rem;
+    
+   }
+
+   #cartoon{
+    width:15rem!important; 
+    height: 11rem!important;
+    margin-top: 1rem!important;
+    margin-left: -2rem!important;
+   
+   }  
+   
+   #Home {
+    margin-bottom: -6rem;
+   }
+}
+#cartoon {
+    width:28rem; 
+    height: 22rem;
+    margin-top: -2rem;
+    margin-left: 12rem;
+}
+
 #btn1{
     padding-top: 20px;
     padding-left: 80px;
@@ -38,9 +80,23 @@ h2 {
     color: white;
 }
 #skillsD {
-    padding-left: 100px;
-    padding-right: 100px;
+   justify-content: center;
+   align-items: center;
 }
+    
+#skillsD2 {
+    
+    margin-left: 5rem;
+}
+
+@media (max-width: 767px) {
+    #skillsD2
+    {
+        margin-left: 0rem;
+        margin-right: 9rem;
+    }
+} 
+    
 button {
     height: 40px;
     width :150px;
@@ -53,19 +109,20 @@ label {
     color: #317773;
     
 }
- #card1 {
+#card1 {
     align-items: center;
     justify-content: center;
     /* padding-left: 100px;
     padding-right: 850px; */
 } 
 .card {
-    background-color: #161919;
-    color: white;
+    background-color: #161919!important;
+    color: white!important;
+   
 }
-#contact {
-    padding-left: 240px;
-    padding-right: 240px;
+
+.cardText {
+    height: 12rem;
 }
 #Workh1 {
     text-align: center;
@@ -82,18 +139,53 @@ label {
     font-size: 22px;
 }
 #sde {
-    display: inline-flex; 
+    display: flex;
+    flex-wrap: nowrap;
     align-items: center;
 }
+
 #div2 {
-    margin-left: 120px;
+    margin-left: 3rem;
     color: white;
 }
+
+@media (max-width: 767px) {
+    #sde {
+        /* display: inline-flex;  */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #img1 {
+        width:12rem!important; 
+        height: 10rem!important;
+        margin-left: 2rem!important;
+    }
+
+    .li1 {
+        display: flex;
+       padding: 1px;
+        margin: 0.2rem;
+        color: white;
+        font-size: 1rem;
+    }
+    .cardText {
+        height: 18rem;
+    }
+   
+} 
+
+.cardTitle {
+    color: rgb(96, 91, 91);
+}
+
 #img1 {
-    width:410px; 
-    height: 320px;
+    width:28rem; 
+    height: 22rem;
     margin-left: 8rem;
 }
+
 #header4 {
     font-size: 18px;
     margin-left: 4rem;
@@ -117,3 +209,4 @@ label {
     cursor: pointer;
     font-size: 16px;
 }
+

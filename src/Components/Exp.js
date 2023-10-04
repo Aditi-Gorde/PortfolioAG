@@ -20,15 +20,15 @@ export default function Exp() {
     <>
         <div id="Exp">
             <h1 id="exph1">Experience</h1><br /><br />
-            <ul>
+            <ul >
                 <a id="anch" onClick={sde}  href='#wde'><li class="li1" style={{color:'rgb(152, 34, 34)'}}>Software Engineer Intern</li></a>
                 <a id ="anch2" onClick={wde} href="#wde"><li class="li1" style={{color:'rgb(152, 34, 34)'}}>Web Development Intern</li></a>
-            </ul><br /><br /><br />
+            </ul><br />
 
             <div id="sde">
 	        <div id="div1">
 	            <img src="https://www.servicedeskshow.com/wp-content/uploads/2023/05/Opentext-Logo.png" alt="Snow"  id="img1" />
-	       </div><br/><br /><br />
+	       </div>
 	       <div class="column"  id="div2">
 		        <h3 id="header" >Software Engineer Intern</h3>
                 <h4 id ="header4">-Opentext [Feb 2023 - Aug 2023]</h4>
